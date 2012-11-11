@@ -27,3 +27,11 @@ Execute this commands
 	$ librarian-chef install
 	$ vagrant up
 
+
+
+TODO
+====
+
+Increase tmp size
+
+    $ mount -t tmpfs tmpfs /run -o size=2000M,mode=1777,remount
